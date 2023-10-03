@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 2em;
+    background-color: lightgray;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+    margin:0;
+    padding: 0.5em;
+    background-color: white;
+}
+
+#main_section{
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+#budget_student{
+    display:inline-block
+}
+#standard_student{
+    display:inline-block
+}
+#scholarship_student{
+    display:inline-block
+}
