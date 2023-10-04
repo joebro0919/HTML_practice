@@ -1,27 +1,123 @@
 body{
     margin: 0;
     padding: 2em;
-    background-color: lightgray;
+    background-color: #dfe7ec;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 18px;
+}
+strong{
+    font-weight: 800;
+    font-size: 36px;
 }
 
+/*
+Header Section
+*/
 h1{
     font-size: 36px;
+    font-weight: 600;
     text-align: center;
     margin:0;
     padding: 0.5em;
+    background-color: #dfe7ec;
+}
+
+h2{
+    margin:0;
+    padding: 1em;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+div.div_student{
     background-color: white;
+    display:inline-block;
+    text-align: center;
+    width: 300px;
 }
 
-#main_section{
+div.div_student_mid{
+    background-color: #2F4F4F;
+    display:inline-block;
+    text-align: center;
+    width: 300px;
+    color: white;
+}
+
+/*
+ID Section
+*/
+#section_1{
     box-shadow: 2px 2px 2px 2px gray;
+    width: 910px;
 }
 
-#budget_student{
-    display:inline-block
+#section_2{
+    margin-top: 2em;
+    background-color: #2F4F4F;
+    width: 910px;
 }
-#standard_student{
-    display:inline-block
+
+#bs_payment{
+    background-color: #5BB189;
+    padding: 1em;
+    margin: 0em;
+    font-size: 18px;
 }
-#scholarship_student{
-    display:inline-block
+
+#ss_payment{
+    background-color: #4B0082;
+    padding: 1em;
+    margin: 0em;
+    font-size: 18px;
 }
+
+#sch_payment{
+    background-color: #EC632A;
+    padding: 1em;
+    margin: 0em;
+    font-size: 18px;
+}
+
+/*
+Lists
+*/
+
+ul.no_bullets{
+    list-style-type: none;
+    padding:0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+li{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+li:nth-child(even){
+    background-color: rgba(47,59,64,0.35);
+}
+li:last-child{
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+
+}
+
+/*
+Buttons
+*/
+button{
+    color: white;
+    background-color: #3A6BA5;
+    border: none;
+    border-radius: 5px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 8em;
+    padding-right: 8em;
+}
+button:hover{
+    background-color: #437CBF;
+}
+
