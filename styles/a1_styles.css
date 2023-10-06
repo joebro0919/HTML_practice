@@ -1,9 +1,9 @@
 body{
     margin: 0;
     padding: 2em;
-    background-color: #dfe7ec;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     font-size: 18px;
+    background-color:rgb(210, 224, 223);
 }
 strong{
     font-weight: 800;
@@ -18,8 +18,14 @@ h1{
     font-weight: 600;
     text-align: center;
     margin:0;
-    padding: 0.5em;
-    background-color: #dfe7ec;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+h1.sec_2_h1{
+    margin:0;
+    text-align: left;
+    padding-bottom: 0;
 }
 
 h2{
@@ -38,24 +44,37 @@ div.div_student{
 
 div.div_student_mid{
     background-color: #2F4F4F;
+    color: white;
     display:inline-block;
     text-align: center;
     width: 300px;
-    color: white;
 }
 
+[href]{
+    color:lightskyblue;
+}
 /*
 ID Section
 */
 #section_1{
     box-shadow: 2px 2px 2px 2px gray;
     width: 910px;
+    font-weight: 300;
 }
 
 #section_2{
+    font-weight: 300;
     margin-top: 2em;
     background-color: #2F4F4F;
-    width: 910px;
+    width: 895px;
+    color:white;
+    text-align: left;
+    padding-left:1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+#section_2 p{
+    margin-top:0.5em;
 }
 
 #bs_payment{
@@ -88,17 +107,30 @@ ul.no_bullets{
     padding:0;
     margin-bottom: 0;
     margin-top: 0;
+    background-image: url("/images/delete.png");
+    
 }
 
-li{
+li.sec1_list{
     padding-top: 1em;
     padding-bottom: 1em;
 }
 
-li:nth-child(even){
+li.sec2_list{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    font-weight: 600;
+    background-image: url(../images/checkmark.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 24px;
+}
+
+li:nth-child(even).sec1_list{
     background-color: rgba(47,59,64,0.35);
 }
-li:last-child{
+li:last-child.sec1_list{
     padding-top: 2.5em;
     padding-bottom: 2.5em;
 
