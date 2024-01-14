@@ -1,6 +1,5 @@
-# COMP 3612 (Fall 2023)
-### Assignment #1: HTML+CSS
+HTML and CSS Webpage done for a web development class.
 
-**Please view `COMP3612 Assignment 1.pdf` for instructions**
+Pages: https://joebro0919.github.io/HTML_practice/
 
   
